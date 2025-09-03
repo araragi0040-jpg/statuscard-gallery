@@ -75,12 +75,14 @@ export default function ImageGallery() {   // ← default export の“関数”
             />
           </div>
         </div>
-        <div className="mx-auto max-w-6xl px-4 pb-3 flex flex-wrap gap-2">
-          <TagChip active={!tag} onClick={() => setTag(null)} label="すべて" />
-          {allTags.map((t) => (
-            <TagChip key={t} active={tag === t} onClick={() => setTag(t)} label={t} />
-          ))}
-        </div>
+<div className="mx-auto max-w-6xl px-4 pb-3">
+  <div className="flex items-center gap-2 overflow-x-auto whitespace-nowrap pb-1 [-webkit-overflow-scrolling:touch]">
+    <TagChip active={!tag} onClick={() => setTag(null)} label="すべて" />
+    {allTags.map((t) => (
+      <TagChip key={t} active={tag === t} onClick={() => setTag(t)} label={t} />
+    ))}
+  </div>
+</div>
       </header>
 
       <main className="mx-auto max-w-6xl px-4 py-6">

@@ -1,3 +1,2 @@
-'use client';
-import StatusCardGalleryRPG from '../components/StatusCardGalleryRPG';
-export default function Page() { return <StatusCardGalleryRPG />; }
+import { redirect } from 'next/navigation';
+export default function Page() { redirect('/gallery'); }
