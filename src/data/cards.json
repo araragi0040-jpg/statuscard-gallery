@@ -1,0 +1,19 @@
+[
+  {
+    "id": "shuu",
+    "name": "しゅう",
+    "activities": ["ステータスカード制作", "交流会主催"],
+    "good": "聞き出しの巧みさ",
+    "weak": "走り出しが早すぎるとき",
+    "statuses": [
+      { "label": "対話", "value": 90 },
+      { "label": "設計", "value": 75 },
+      { "label": "実装", "value": 55 }
+    ],
+    "tags": ["やさしさ", "余白", "対話型"],
+    "instagram": "@shuhe0040",
+    "bio": "“今のことば”をすくい上げる人。安心できる場づくりが得意。",
+    "tone": "linen",
+    "iconUrl": "/avatars/shuu_256.png"
+  }
+]
